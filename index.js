@@ -144,7 +144,6 @@ function key_event(stream, code, cb) {
 }
 
 module.exports = bindings;
-delete module.exports.input_event;
 module.exports.setup = setup;
 module.exports.create = create;
 module.exports.send_event = send_event;
